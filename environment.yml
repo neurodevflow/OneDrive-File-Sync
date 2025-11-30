@@ -1,0 +1,9 @@
+name: onedrive-file-sync
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - requests
+  - pip:
+    - any-pip-only-package
